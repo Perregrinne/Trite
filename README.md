@@ -9,6 +9,8 @@ Anyone is free to use them for personal or commercial projects at no cost, as th
 
 I have also expanded the scripts to contain other things that should hopefully make future projects even easier for me.
 
+Currently, trite.min.css is approximately 1.35kB, while trite.min.js is around 800B. I aim to keep both scripts small or break them into modular parts.
+
 ---
 **Trite.css**
 
