@@ -1,0 +1,148 @@
+/*---------- Trite.css ----------
+This file serves as a template
+for the most common CSS stuff I
+usually need to set. "Trite" is a
+word that means that something is
+very common. It is licensed under
+the MIT license.
+
+NOTE: Before you use this, please
+be sure to get rid of any unused
+CSS fields. They are removed from
+any minified versions by default.
+-------------------------------*/
+
+/* Light Or Dark Themes */
+@media(prefers-color-scheme: dark) {
+    body {
+        --black: #313131;
+        --white: #ccc;
+        --gray: #888;
+        --red: #a71414;
+        --orange: #a77416;
+        --yellow: #a39519;
+        --green: #189918;
+        --blue: #16169b;
+        --cyan: #179ba0;
+        --magenta: #9e165a;
+        --purple: #961496;
+        --brown: #4e260b;
+        background-color: var(--white);
+        color: var(--black);
+    }
+    #hamburger-menu {
+        fill: var(--gray);
+        background-color: var(--black);
+    }
+}
+@media(prefers-color-scheme: light) {
+    body {
+        --black: #444;
+        --white: #ddd;
+        --gray: #aaa;
+        --red: #ff1919;
+        --orange: #ffc31f;
+        --yellow: #fffb1d;
+        --green: #20ff20;
+        --blue: #2b2bff;
+        --cyan: #2dffff;
+        --magenta: #ff2ee3;
+        --purple: #b920ff;
+        --brown: #a74300;
+        background-color: var(--white);
+        color: var(--black);
+    }
+    #hamburger-menu {
+        fill: var(--black);
+        background-color: var(--white);
+    }
+}
+/*----------------------*/
+
+/* Responsiveness */
+/* Laptop/Desktop Sizes */
+@media screen and (max-width: 1920px) {
+    /* DELETE THIS IF NOT IN USE! */
+}
+@media screen and (max-width: 1366px) {
+    /* DELETE THIS IF NOT IN USE! */
+}
+@media screen and (max-width: 1024px) {
+    /* DELETE THIS IF NOT IN USE! */
+}
+
+/* Mobile Sizes */
+@media screen and (max-width: 360px) {
+    /* DELETE THIS IF NOT IN USE! */
+}
+@media screen and (max-width: 768px) {
+    /* DELETE THIS IF NOT IN USE! */
+}
+/*----------------*/
+
+body, html {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+/* Anchor Text */
+a {
+    text-decoration: none;
+    color: var(--blue);
+}
+a:visited {
+    color: var(--purple);
+}
+a:hover {
+    color: var(--cyan);
+}
+/* End of Anchor Text */
+
+/* Buttons */
+button {
+    border: 1px solid var(--gray);
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 2px;
+}
+button:hover {
+    border: 1px solid var(--white);
+    background-color: var(--gray);
+}
+.submit {
+    border: 1px solid var(--blue);
+    background-color: var(--cyan);
+}
+.submit:hover {
+    background-color: var(--blue);
+}
+.cancel {
+    border: 1px solid var(--magenta);
+    background-color: var(--red);
+}
+.cancel:hover {
+    background-color: var(--magenta);
+}
+/* End of Buttons*/
+
+#navbar {
+    display: inline-block;
+    width: 100%;
+}
+
+/* All elements (except footer and maybe navbar) must be inside the page's container. */
+.container {
+    padding: 0 10%;
+    margin: auto;
+}
+
+footer {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
