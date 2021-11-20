@@ -27,8 +27,8 @@ any minified versions by default.
         --magenta: #9e165a;
         --purple: #961496;
         --brown: #4e260b;
-        background-color: var(--white);
-        color: var(--black);
+        background-color: var(--black);
+        color: var(--white);
     }
     #hamburger-menu {
         fill: var(--gray);
